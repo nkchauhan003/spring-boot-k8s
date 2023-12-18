@@ -8,7 +8,7 @@ inventory-ms:
     host: http://localhost:8081
     uri: inventory
     connectTimeout:
-    readTimeout: 300
+    readTimeout: 600
     writeTimeout: 500
     maxInMemorySize: 2048
   circuit-breaker:
@@ -25,6 +25,6 @@ client:
   max-connections: 10
   max-idle-time-seconds: 10
   max-life-time-seconds: 10
-  response-timeout-milis: 300
+  response-timeout-milis: 600
   retries: 3
   retry-delay-milis: 400
